@@ -74,7 +74,8 @@ public class listagemVIEW extends javax.swing.JFrame {
         btnVendas.setText("Consultar Vendas");
         btnVendas.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnVendasActionPerformed(evt);
+                listagemVendidosVIEW listagem = new listagemVendidosVIEW(); 
+                listagem.setVisible(true);
             }
         });
 
