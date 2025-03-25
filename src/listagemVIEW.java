@@ -149,6 +149,7 @@ public class listagemVIEW extends javax.swing.JFrame {
         //vendas.setVisible(true);
     }//GEN-LAST:event_btnVendasActionPerformed
 
+    
     private void btnVoltarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnVoltarActionPerformed
         this.dispose();
     }//GEN-LAST:event_btnVoltarActionPerformed
