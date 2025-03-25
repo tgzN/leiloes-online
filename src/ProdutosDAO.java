@@ -76,7 +76,7 @@ public class ProdutosDAO {
                 listagem.add(produto);
             }
         } catch (SQLException e) {
-            JOptionPane.showMessageDialog(null, "Erro ao listar produtos: " + e.getMessage());
+            JOptionPane.showMessageDialog(null, "Erro ao listar produtos vendidos: " + e.getMessage());
         } finally {
             conectaDAO.closeConnection(conn, pstmt, rs); // Feche a conexão
         }
